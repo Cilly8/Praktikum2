@@ -8,7 +8,6 @@ import random
 import os
 from sklearn.utils import shuffle
 
-"""
 # Get the training and testing dataset
 with open(os.path.join("dataset", "train.p"), mode='rb') as training_data:
     train = pickle.load(training_data)
@@ -83,7 +82,7 @@ plt.figure()
 plt.grid(False)
 plt.imshow(X_train_norm[i].squeeze(), cmap='gray')
 
-
+"""
 A list of all classes:
 - 0 = Speed limit (20km/h)
 - 1 = Speed limit (30km/h)
